@@ -67,7 +67,7 @@ const Nav = _ => {
                             <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
 
                                 <Stack direction="row" spacing={1} border="none">
-                                    <Chip sx={{ border: "none", fontSize: 18, fontWeight: 600 }} label="Become a host" variant="outlined" onClick={handleClick} />
+                                    <Chip sx={{ border: "none", fontSize: 18, fontWeight: 600 }} label="Airbnb your home" variant="outlined" onClick={handleClick} />
                                     <Chip sx={{ border: "none", fontSize: 18, fontWeight: 600 }} label={<FontAwesomeIcon icon={faGlobe} />} variant="outlined" onClick={handleClick} >
 
                                     </Chip>
@@ -84,7 +84,7 @@ const Nav = _ => {
                                     >
                                         <Stack direction="row" spacing={1} paddingLeft={1} paddingRight={1} padding={0.5} border="0.1px solid rgba(0,0,0,0.3)" borderRadius={12}>
                                             <MenuIcon sx={{ height: 32, }} />
-                                            <Avatar sx={{ width: 32, height: 32, }}>M</Avatar>
+                                            <Avatar sx={{ width: 32, height: 32, }}>S</Avatar>
                                         </Stack>
                                     </IconButton>
                                 </Tooltip>
